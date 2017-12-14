@@ -78,7 +78,7 @@ function playGame() {
         }
     }
 
-    interval = window.setInterval(drawGame, 90);
+    interval = window.setInterval(drawGame, 160);
     document.onkeydown = function (key) {
         var code = key.keyCode - 37;
         if (0 <= code && code < 4 && code !== directions[0])
