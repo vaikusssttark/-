@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+canvas {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.message {
+    color: white;
+}
